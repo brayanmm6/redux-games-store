@@ -1,0 +1,179 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Love Money Rock-n-Roll",
+            "price": 26.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Love Money Rock-n-Roll.png",
+            "onSale": false,
+            "salePrice": null,
+            "logo": "http://localhost:3000/game-logos/Love Money Rock-n-Roll - logo.png"
+        },
+        {
+            "id": 2,
+            "name": "Infinifactory",
+            "price": 66.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Infinifactory.png",
+            "onSale": false,
+            "salePrice": null,
+            "logo": null
+        },
+        {
+            "id": 3,
+            "name": "Toribash Next",
+            "price": 0,
+            "isFree": true,
+            "img": "http://localhost:3000/images/Toribash Next.png",
+            "onSale": false,
+            "salePrice": null,
+            "logo": "http://localhost:3000/game-logos/Toribash Next - logo.png"
+        },
+        {
+            "id": 4,
+            "name": "In The Gym",
+            "price": 2.62,
+            "isFree": false,
+            "img": "http://localhost:3000/images/In The Gym.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 5,
+            "name": "Hotel: A Resort Simulator",
+            "price": 59.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Hotel A Resort Simulator.png",
+            "onSale": false,
+            "salePrice": null
+        },
+
+        {
+            "id": 6,
+            "name": "Troma Presents Poultrygeist",
+            "price": 29.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Troma Presents Poultrygeist.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 7,
+            "name": "Stargate: Timekeepers",
+            "price": 80.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Stargate Timekeepers.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 8,
+            "name": "Howl",
+            "price": 46.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Howl.png",
+            "onSale": true,
+            "salePrice": 42.29
+        },
+        {
+            "id": 9,
+            "name": "The Inquisitor",
+            "price": 179,
+            "isFree": false,
+            "img": "http://localhost:3000/images/The Inquisitor.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 10,
+            "name": "Contraption Maker",
+            "price": 37.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Contraption Maker.png",
+            "onSale": true,
+            "salePrice": 23.99
+        },
+        {
+            "id": 11,
+            "name": "Lilaina: Space Bounty Hunter",
+            "price": 5.39,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Lilaina Space Bounty Hunter.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 12,
+            "name": "Last Remains",
+            "price": 0,
+            "isFree": true,
+            "img": "http://localhost:3000/images/Last Remains.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 13,
+            "name": "Airship: kingdoms Adrift",
+            "price": 80.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Airship kingdoms Adrift.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 14,
+            "name": "Geometric Sniper",
+            "price": 5.39,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Geometric Sniper.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 15,
+            "name": "The Death Into Trouble",
+            "price": 13.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/The Death Into Trouble.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 16,
+            "name": "LOVE",
+            "price": 7.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/LOVE.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 17,
+            "name": "Turnip Boy Robs a Bank",
+            "price": 39.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Turnip Boy Robs a Bank.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 18,
+            "name": "Prince of Persia: The lost Crown",
+            "price": 209.99,
+            "isFree": false,
+            "img": "http://localhost:3000/images/Prince of Persia The lost Crown.png",
+            "onSale": false,
+            "salePrice": null
+        },
+        {
+            "id": 19,
+            "name": "Monke island: Rise of The Beast",
+            "price": 0,
+            "isFree": true,
+            "img": "http://localhost:3000/images/Monke island Rise of The Beast.png",
+            "onSale": false,
+            "salePrice": null
+        }
+    ]
+}

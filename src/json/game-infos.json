@@ -1,0 +1,968 @@
+{ "games": [
+    {
+        "name": "Love Money Rock-n-Roll", 
+        "infos": {
+            "basic":"Love, Money, Rock'n'Roll: the romanticism of the Eighties, mystery and intrigues, betrayal and sacrifice, hatred and passion — all this and more in the new game from the creators of the legendary visual novel Everlasting Summer!",
+            "genres": [
+                "Aventura",
+                "Casual",    
+                "Narração"
+            ],
+            "resources": [
+                "Multiplataforma",
+                "Salvamentos na nuvem"
+            ],
+            "description": "Love, Money, Rock'n'Roll by the creators of the legendary VN Everlasting Summer! The Story Nikolai, a son of Soviet immigrants and a normal Japanese student, has no idea that his world is about to turn upside-down. The familiar, everyday life will clash inside of him with the ghosts of the past. Nikolai will have to decide who he can really trust and learn why he has become of interest to people with money and power that make the lives of regular people lose their significance. The Heroines Himitsu is Nikolai's childhood friend. She is kind, caring, always worries about him, and can sometimes even be too vexatious. But is she really satisfied with simple friendship? Perhaps the years of loyalty to Nikolai have earned her something more? Catherine is Nikolai's ex-girlfriend who left japan about a year prior to the game's events. Their parting wasn't on the best terms, and Nikolai still harbours unpleasant memories of it. Perhaps he would have forgotten with time, but Catherine suddenly returns and, moreover, transfers to his class. Why is she back and does she love him still? Ellie is the granddaughter of the head of trustees of Nikolai's school. She is a wilful, proud girl who knows her worth, yet she does not lack ardour. Is she as simple as she appears at first glance, or does a rebel hide under the guise of a pampered lady? Kagome is the representative of Nikolai's class. He had never paid much attention to her before, but a certain turn of events makes them get to know each other better. Kagome is disliked in the school, not that she is burning with desire to get friendly with others herself. Are things so clear-cut with this unsociable girl, or is there more than meets the eye?",
+            "features": [
+                "Four heroines, each with her own story and several possible endings",  
+                "Over 100 backgrounds and 120 full-screen illustrations (CG)",
+                "5,5+ hours of music",
+                "Unity3D as the game engine",
+                "Over 500 000 words in the script",
+                "Fully animated sprites and animated backgrounds",
+                "Multiplatform (including mobile versions)"
+            ],
+            "requirements": {
+                "minimun" : [
+                    {"name": "OS version", "value": "Windows 7"},
+                    {"name": "CPU", "value": "Pentium® 4 1.5 GHz / Athlon® XP"},
+                    {"name": "Memory", "value": 2046},
+                    {"name": "GPU", "value": "DirectX® 11 compatible"},
+                    {"name": "login", "value": "Epic ID"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 10/11"},
+                    {"name": "CPU", "value": "Pentium® 4 1.5 GHz / Athlon® XP"},
+                    {"name": "Memory", "value": 2048},
+                    {"name": "GPU", "value": "DirectX® 11 compatible"}
+                ]
+            },
+            "developer": "Soviet Games",
+            "publisher": "Soviet Games",
+            "age": {
+                "target": 18,
+                "content": ["Conteúdo sexual", "Drogas", "Violência"]
+            },
+            "launch-date": "26/01/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": []},
+                {"text": ["Russian", "English"]}
+            ],
+            "images": [
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_1.png", "id": 0},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_2.png", "id": 1},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_3.png", "id": 2},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_4.png", "id": 3},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_5.png", "id": 4},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_6.png", "id": 5},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_7.png", "id": 6},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_8.png", "id": 7},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_9.png", "id": 8},
+                {"image" : "http://localhost:3000/game-images/Love Money Rock-n-Roll/Screenshot_10.png", "id": 9}
+            ]
+        }
+    },
+
+    {
+        "name": "Infinifactory", 
+        "infos": {
+            "basic": "Infinifactory is a sandbox puzzle game by Zachtronics, the creators of SpaceChem and Infiniminer. Build factories that assemble products for your alien overlords, and try not to die in the process.",
+            "genres": [
+                "Primeira Pessoa",
+                "Quebra-Cabeça"
+            ],
+            "resources": [
+                "Jogos para Um Jogador"
+            ],
+            "description": "Build factories that assemble products for your alien overlords, and try not to die in the process. Infinifactory is a sandbox puzzle game by Zachtronics, the creators of SpaceChem and Infiniminer. Build factories that assemble products for your alien overlords, and try not to die in the process.",
+            "features": [
+                "LIKE SPACECHEM… IN 3D! Design and run factories in a first-person, fully 3D environment.",
+                "HISTOGRAMS ARE BACK! Optimize your solutions, and then optimize them more when you see how much better your friends did.",
+                "VISIT EXOTIC ALIEN LOCALES! Explore a story-driven campaign with 50+ puzzles, audio logs, and more.",
+                "BLOCKS THAT MOVE! Go beyond the campaign and push the limits of Infinifactory’s next-generation block engine in the sandbox."
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows XP"},
+                    {"name": "CPU", "value": "2.0 GHZ"},
+                    {"name": "Memory", "value": "2GB RAM"},
+                    {"name": "GPU", "value": "2.0 GHZ"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 11"},
+                    {"name": "CPU", "value": "2.0 GHZ"},
+                    {"name": "Memory", "value": "2GB RAM"},
+                    {"name": "GPU", "value": "2.0 GHZ"}
+                ]
+            },
+            "developer": "Zachtronics",
+            "publisher": "Zachtronics",
+            "age": {
+                "target": 16,
+                "content": ["Linguagem Imprópria", "Violência"]
+            },
+            "launch-date": "25/01/2024",
+            "plataform": [
+                "Windows",
+                "MAC"
+            ],
+            "languages": [
+                {"audio": []},
+                {"text": ["English"]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Infinifactory/Screenshot_1.png", "id": 0}
+            ]
+        }
+    },
+    {
+        "name": "Toribash Next",
+        "infos": {
+            "basic": "Toribash: Next is the sequel to Toribash, the award-winning turn-based sandbox fighting game, developed by Nabi Studios. More players and fighting, weapons and blood, and ultimately - more fun.",
+            "genres": [
+                "Ação",
+                "Luta"
+            ],
+            "resources": [
+                "Competitivo",
+                "Online Multiplayer"
+            ],
+            "description": "THE NEXT GREAT FIGHTING GAME Toribash Next is the sequel to Toribash, the award-winning turn-based sandbox fighting game. Toribash revolutionized the genre by allowing players to create their own moves during a match, using easy-to-understand 3D physics tools. Toribash Next takes fighting games to the next level with weapons,four-player battles and a new replay editor, plus more of the customization and modding options that made the original game a fan favorite. WHERE WILL YOU STRIKE NEXT?Challenge your friends to a bloody four-player free-for-all, or team up for freestyle tricking and parkour exhibitions. Change the rules, spawn items and even alter the environment right in the middle of a match. Create epic martial-arts replays by editing in new moves after the fact. Toribash Next gives you the freedom to make the moves you’ve dreamed of making... and play the way you’ve dreamed of playing!",
+            "features": [
+                "Innovative turn-based gameplay with 3D body movement and physics",
+                "20 different articulation points that can be manipulated in each turn (21 with weapons)",
+                "Game modes include Classic, Samurai Fight, Aikido and Gun Duel",
+                "All-new 3- and 4-player modes, including team fights and freefor-all",
+                "Equippable weapons including guns, swords and staves",
+                "New Replay Editor lets you return to any point in a completed fight and change the outcome",
+                "Wide variety of character, environment and rule customizations",
+                "In-game economy: Buy and sell custom characters and mods",
+                "Player-hosted servers"
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows 10 (64 bit)"},
+                    {"name": "CPU", "value": "2.6 GHZ Dual Core"},
+                    {"name": "Memory", "value": "4GB RAM"},
+                    {"name": "GPU", "value": "256 MB RAM, non-integrated"},
+                    {"name": "storage", "value": "500MB"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 10 (64 bit)"},
+                    {"name": "CPU", "value": "2.6 GHZ Dual Coree"},
+                    {"name": "Memory", "value": "4GB RAM"},
+                    {"name": "GPU", "value": "256 MB RAM, non-integrated"},
+                    {"name": "storage", "value": "500MB"}
+                ]
+            },
+            "developer": "Nabi Studios",
+            "publisher": "Nicalis, Inc.",
+            "age": {
+                "target": 16,
+                "content": ["Violência"]
+            },
+            "launch-date": "25/01/2024",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": ["English"]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Toribash Next/Screenshot_7.png", "id": 6}
+            ]
+        }
+    },
+    {
+        "name": "In The Gym",
+        "infos": {
+            "basic": "Um jogo de terror emocional sobre sobrevivência em uma academia.",
+            "genres": [
+                "Ação",
+                "Primeira Pessoa",
+                "Terror"
+            ],
+            "resources": [
+                "Jogos para Um Jogador"
+            ],
+            "description": "JOGO: Terror indie com ênfase na atmosfera única da academia. A jogabilidade é muito simples: você acordou em uma grande academia e agora precisa encontrar 10 imagens de anime incríveis escondidas aqui. Encontre todas as imagens antes que os outros visitantes do ginásio encontrem você. In The Gym não oferece um enorme mundo aberto, um sistema complicado de atualização, lootboxes e outros elementos obrigatórios da maioria dos jogos modernos. Não, após a compra, você terá apenas 10 minutos de busca intensa de imagens de anime. Mas do que mais você precisa? ESTILO VISUAL: Graças às tecnologias do Unreal Engine 5, o jogo tem gráficos modernos e realistas. Modelos 3D elaborados de personagens e ambientes, belos efeitos de iluminação e pós-processamento, além de controles realistas, ajudarão você a sentir a atmosfera do jogo",
+            "features": [
+                "♂️ Nível de bônus - Backrooms",
+                "♂️ Jogabilidade viciante",
+                "♂️ Localização atmosférica",
+                "♂️ 10 imagens de anime",
+                "♂️ Memes"
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "Versão do SO", "value": "Windows 7 / 8 / 10 / 11"},
+                    {"name": "Processador", "value": "AMD Athlon X4 | Intel Core i5 4460"},
+                    {"name": "Memória", "value": "8GB"},
+                    {"name": "Placa de vídeo", "value": "Nvidia GTX 950 | AMD R7 370"},
+                    {"name": "Armazenamento", "value": "4GB"}
+                ],
+                "recommended": [
+                    {"name": "Versão do SO", "value": "Windows 7 / 8 / 10 / 11"},
+                    {"name": "Processador", "value": "AMD Ryzen 3 | Intel i5 10400"},
+                    {"name": "Memória", "value": "8GB"},
+                    {"name": "Placa de vídeo", "value": "Nvidia GTX 1660 | AMD RX 570"},
+                    {"name": "Armazenamento", "value": "4GB"}
+                ]
+            },
+            "developer": "Performance Artist",
+            "publisher": "Performance Artist",
+            "age": {
+                "target": 12,
+                "content": ["Medo", "Violência"]
+            },
+            "launch-date": "23/01/2024",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": []},
+                {"text": ["English"]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_9.png", "id": 8},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_10.png", "id": 9},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_11.png", "id": 10},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_12.png", "id": 11},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_13.png", "id": 12},
+                {"image": "http://localhost:3000/game-images/In The Gym/Screenshot_14.png", "id": 13}
+            ]
+        }
+    },
+    {
+        "name": "Hotel: A Resort Simulator",
+        "infos": {
+            "basic": "Você gerencia um hotel em um local idílico. Construa, projete e desenvolva seu hotel e proporcione momentos inesquecíveis para seus hóspedes com gerenciamento experiente e oferecendo entretenimento excepcional.",
+            "genres": [
+                "Primeira Pessoa",
+                "Simulação"
+            ],
+            "resources": [
+                "Jogos para Um Jogador"
+            ],
+            "description": "O primeiro simulador de hotel que leva você aos bastidores de férias idílicas. Sua missão é proporcionar momentos inesquecíveis para seus hóspedes gerenciando seu hotel e expandindo seu negócio! Construa o hotel dos seus sonhos! Escolha o local e o design ideais e construa todas as instalações necessárias (recepção, restaurantes, suítes...) e decore-os ao seu gosto. Mime seus hóspedes! Receba seus hóspedes no cais e garanta que a estadia deles seja a mais confortável possível para ganhar as melhores avaliações on-line. Limpeza, armazenamento, transporte, alimentação, entretenimento — todos os aspectos das férias deles são sua responsabilidade. Gerencie seu estabelecimento e sua equipe! Como gerente, você tem muitas responsabilidades: contratar funcionários, organizar tarefas a serem realizadas no hotel, cuidar das reservas, preparar cardápios, otimizar os lucros, investir em novos equipamentos... Suas decisões determinarão o sucesso do seu negócio!",
+            "features": [
+                "Possui conquistas."
+            ],
+            "requirements": {
+                "minimun": [],
+                "recommended": []
+            },
+            "developer": "RingZero",
+            "publisher": "Nacon",
+            "age": {
+                "target": "free",
+                "content": []
+            },
+            "launch-date": "23/01/2024",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": ["English"]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_9.png", "id": 8},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_10.png", "id": 9},
+                {"image": "http://localhost:3000/game-images/Hotel A Resort Simulator/Screenshot_11.png", "id": 10}
+    
+            ]
+        }
+    },
+    {
+        "name": "Troma Presents Poultrygeist",
+        "infos": {
+            "basic": "A massacred chicken that was torn to shreds by a lawn mower brings the city to the verge of riot. From the minds of Troma, POULTRYGEIST is a detective game meets Triple A Visual Novel plus a healthy dose of comic book style action and fantasy.",
+            "genres": [
+                "Comédia",
+                "Indie",
+                "Narração"
+            ],
+            "resources": [
+                "Jogos para Um Jogador"
+            ],
+            "description": "How many chickens have you killed today? This Triple A Visual Novel has mystery, comedy, journalism, and asmr rolled up into an adventure for those who really want to figure out a bizarre conflict and stop the panic gripping a city. From the minds of Troma, comes a sequel to the blockbuster flop 'Poultrygeist: Night of the Living Chicken' The story follows the murder of a chicken and destruction of a lawn mower that teeters the city closer to a riot and an even more powerful looming magical threat. This is for gamers who really want to live through a kick ass comic book with brutal anime style action, rich horror lore, and TRULY think the can crack any case.",
+            "features": [],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows 10"},
+                    {"name": "CPU", "value": "Intel Core i3/ AMD Ryzen 3"},
+                    {"name": "Memory", "value": "4GB"},
+                    {"name": "GPU", "value": "nvidia gt1030"},
+                    {"name": "DirectX", "value": "DirectX® 11"},
+                    {"name": "storage", "value": "2GB"},
+                    {"name": "SoundCard", "value": "Direct X compatible"},
+                    {"name": "Additional input device", "value": "Gamepad"},
+                    {"name": "Additional Notes", "value": "There are no audio or gameplay options (those menus will not open). Controller Recommended. If laggy turn down graphics and resolution. If you game controller doesn't match ui button in options are arranged spatially (i.e. Top Botton etc.)"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 10"},
+                    {"name": "CPU", "value": "Intel Core i5/ AMD Ryzen 5 or better"},
+                    {"name": "Memory", "value": "16GB or more."},
+                    {"name": "GPU", "value": "nvidia gtx1050 or better"},
+                    {"name": "DirectX", "value": "DirectX® 12"},
+                    {"name": "storage", "value": "3GB"},
+                    {"name": "SoundCard", "value": "Direct X compatible"}
+                ]
+            },
+            "developer": "Big Weasel Lil Weasel",
+            "publisher": "Big Weasel Lil Wease",
+            "age": {
+                "target": 14,
+                "content": ["Conteúdo sexual", "Linguagem Imprópria", "Violência"]
+            },
+            "launch-date": "23/01/2024",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": ["English"]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_9.png", "id": 8},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_10.png", "id": 9},
+                {"image": "http://localhost:3000/game-images/Troma Presents Poultrygeist/Screenshot_11.png", "id": 10}
+            ]
+        }
+    },
+    {
+        "name": "Stargate: Timekeepers",
+        "infos": {
+            "basic": "Stargate: Timekeepers é um jogo tático em tempo real em que você lidera uma equipe de especialistas em uma campanha de história ambientada no universo de Stargate SG-1. Use as habilidades únicas dos personagens, crie o plano para desvendar um mistério de loop temporal e derrote a ameaça dos Goa'uld.",
+            "genres": [
+                "Aventura",
+                "Estratégia"
+            ],
+            "resources": [
+                "Conquistas",
+                "Jogos para Um Jogador",
+                "Salvamentos na nuvem"
+            ],
+            "description": "Stargate: Timekeepers é um jogo tático em que você lidera uma equipe de especialistas em uma campanha de história com narrativa original ambientada no universo de Stargate SG-1. Posicione uma equipe recém-formada atrás das linhas inimigas, use as habilidades únicas dos personagens, crie o plano perfeito para desvendar um mistério de loop temporal e derrote a ameaça dos Goa'uld. MERGULHE NO UNIVERSO DE STARGATE SG-1! Stargate: Timekeepers parte do final da 7ª temporada da trama principal de Stargate SG-1 para criar uma história original, desdobrando-se em 14 missões ricas em narrativas . A aventura começa durante a Batalha da Antártica, onde a comandante Eva McCain e sua equipe apoiam o SG-1 contra a frota de Anubis. Algum tempo depois, Eva e sua equipe de especialistas recebem uma nova missão no universo de Stargate: ajudar a Resistência Jaffa, evitar rituais brutais, atacar o exército de Moloc e buscar uma aliança com os Unas. Na luta contra Dolus, um novo senhor do sistema Goa'uld sedento de poder, a equipe fica presa em um loop temporal : como quebrar o loop e virar o jogo a seu favor depende de você. Em Stargate: Timekeepers **as escolhas importam - a aventura tem vários resultados possíveis: volte no tempo e repita as missões **para moldar o destino de seus heróis. LIDERE UMA EQUIPE DE ESPECIALISTAS! Lidere uma equipe de especialistas atuando atrás das linhas inimigas. Use as habilidades únicas dos personagens para criar estratégias perfeitamente sincronizadas e derrotar combatentes Kull, generais Jaffa, oficiais de Moloc e muitos inimigos novos e originais. Líder natural e soldado de longa data, Eva McCain é mestre em fuzis automáticos. Extremamente ágil e atirador experiente, Max Bolton pode se esconder em um traje ghillie e encontrar o local perfeito para derrubar inimigos de longas distâncias. Sam Watson , espião treinado e oficial técnico, é especialista em dispositivos alienígenas.Os drones de** Derreck Harper** realizam algumas das tarefas mais difíceis, incluindo curar aliados e desativar dispositivos eletrônicos hostis. A equipe principal de Tau'ri faz amigos ao longo do caminho: A'ta , rebelde Jaffa e ladra sorrateira que carrega um cajado Ma'tok para combates de curto alcance; e Xugga , veterano poderoso de Unas, mas bem-humorado, que se junta à equipe junto com um amiguinho. Cada indivíduo tem um conjunto de habilidades exclusivas: jogue com inteligência e combine-as para eliminar silenciosamente os inimigos de forma rápida e em sucessão. O modo tático permite sincronizar perfeitamente as ações dos personagens.",
+            "features": [
+                "O jogo possúi conquistas."
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "Sistema operacional", "value": "Windows 7 de 64 bits"},
+                    {"name": "Processador", "value": "Intel Core i3-8100, AMD Ryzen 5 1600"},
+                    {"name": "Memória", "value": "8GB"},
+                    {"name": "Armazenamento", "value": "45GB"},
+                    {"name": "DirectX", "value": "11"},
+                    {"name": "Placa de vídeo", "value": "NVIDIA GeForce GTX 950, Radeon R9 270X"}
+                ],
+                "recommended": [
+                    {"name": "Sistema operacional", "value": "Windows 10 de 64 bits"},
+                    {"name": "Processador", "value": "Intel Core i3-10100, AMD Ryzen 5 2600X"},
+                    {"name": "Memória", "value": "16GB"},
+                    {"name": "Armazenamento", "value": "45GB"},
+                    {"name": "DirectX", "value": "11"},
+                    {"name": "Placa de vídeo", "value": "NVIDIA GeForce GTX 1650, Radeon RX 570"}
+                ]
+            },
+            "developer": "Slitherine Ltd.",
+            "publisher": "Slitherine Ltd.",
+            "age": {
+                "target": "free",
+                "content": []
+            },
+            "launch-date": "23/01/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": ["English"]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/Stargate Timekeepers/Screenshot_8.png", "id": 7}
+            ]
+        }
+    },
+    {
+        "name": "Howl",
+        "infos": {
+            "basic": "Howl is a turn-based tactical folktale set in a world of living ink. Rid the lands of the beastly plague using your weapons and your wits, planning every move up to six steps in advance. Some think prophecy is carved in stone – write your own in ink and blood.",
+            "genres": [
+                "Estratégia",
+                "Jogos de Turnos",
+                "Quebra-Cabeça"
+            ],
+            "resources": [
+                "Conquistas",
+                "Jogos para Um Jogador",
+                "Salvamentos na nuvem"
+            ],
+            "description": "Howl is a turn-based tactical folktale set in medieval times. A sinister ‘howling plague’ has ravaged the land, turning all who hear it into feral beasts. You play a deaf hero plunging into danger in search of a cure. Intrigued by the flowing art style called living ink? Give it a try and experience a dark fairytale painti your own story while you play. Crafting your prophecy weaving a continuous piece of scripture during the fight to rid the lands of the plague. Use your weapons and your wits to survive, planning up to six steps in advance to outmaneuver your opponents.",
+            "features": [
+                "Foretell the actions of your enemies in tactical, turn-based combat",
+                "Beautifully illustrated in a unique, living ink artstyle",
+                "Unlock and upgrade new skills like shadow step, exploding shot and more",
+                "Save villagers from the claws - or howl - of the wolves",
+                "Play through 60 levels in 4 chapters",
+                "Plot your route on the world map to uncover new skills and secret paths"
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "Versão do SO", "value": "64-bit processor and operating system: Windows 7SP1, 8, 8.1, 10"},
+                    {"name": "Processador", "value": "Intel Core i3 with release date 2014 or later OR AMD FX with release date 2013 or later"},
+                    {"name": "Memória", "value": "4 GB"},
+                    {"name": "Placa de vídeo", "value": "Dedicated GPU with base frequency 400 MHz or greater"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Armazenamento", "value": "1GB"},
+                    {"name": "Placa de som", "value": "DirectX 11 compatible"}
+                ],
+                "recommended": [
+                    {"name": "Versão do SO", "value": "64-bit processor and operating system: Windows 10"},
+                    {"name": "Processador", "value": "Intel Core i5 with release date 2014 or later OR AMD FX with release date 2015 or later"},
+                    {"name": "Memória", "value": "8 GB"},
+                    {"name": "Placa de vídeo", "value": "Dedicated GPU with base frequency 400 MHz or greater and 4 GB of memory or greater"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Armazenamento", "value": "1GB"},
+                    {"name": "Placa de som", "value": "DirectX 11 compatible"}
+                ]
+            },
+            "developer": "Mi'pu'mi Games",
+            "publisher": "Astragon Entertainment GmbH",
+            "age": {
+                "target": 10,
+                "content": ["Violência"]
+            },
+            "launch-date": "Em Breve",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": [
+                    "Inglês", 
+                    "Chinês (simplificado)",
+                    "Chinês (tradicional)", 
+                    "Japonês", 
+                    "Português (Brasil)", 
+                    "Francês", 
+                    "Italiano", 
+                    "Alemão",
+                     "Espanhol (Espanha)"
+                ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Howl/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Howl/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Howl/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Howl/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Howl/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Howl/Screenshot_6.png", "id": 5}
+            ]
+        }
+    },
+    {
+        "name": "The Inquisitor",
+        "infos": {
+            "basic": "Você é Mordimer Madderdin, um inquisidor a serviço de Deus, enviado à cidade de Koenigstein, infestada de mistérios e pecados.",
+            "genres": [
+                "Aventura",
+                "Ação",
+                "Fantasia"
+            ],
+            "resources": [
+                "Compatíveis com Controle",
+                "Jogos para Um Jogador",
+                "Salvamentos na nuvem"
+            ],
+            "description": "The Inquisitor é um jogo de aventura fantástica sombria com elementos de ação que faz você encarar difíceis escolhas morais. O jogo se passa numa versão alternativa da realidade (religiosa). Inspirado na série de livros “Inquisidor” de Jacek Piekara. Pregado à cruz e perto da morte, Jesus foi consumido por uma fúria absoluta. Ele se liberta e se vinga violentamente de todos os descrentes. Séculos se passaram e, agora, um exército de inquisidores fanáticos impõem a fé pela força numa igreja banhada em sangue. Você é Mordimer Madderdin, um inquisidor a serviço de Deus, enviado à cidade de Koenigstein. infestada de mistérios e pecados. Resolva os diversos casos e crimes contra a fé enquanto desvenda a verdade sobre um mal sombrio de outro reino que tenta adentrar o mundo dos vivos. Torne-se o juiz e executor sagrado supremo! Seu papel como inquisidor é manter a ordem e impor a fé em Deus. Mas o mundo está cheio de pecadores que se perderam do caminho. Decida o destino daqueles que julga em diversos casos e missões com história. Este é um mundo onde a moralidade e a verdade se afastaram. Você terá misericórdia ou crerá irresolutamente na Lei Sagrada? Uma história não linear sobre a moral - Esta é uma história sombria e cruel em torno de uma religião que prega a vingança e a violência. As suas escolhas vão testar sua moralidade e terão consequências diferentes na história. Escolha seu caminho e decida qual tipo de inquisidor será – da justiça ou da misericórdia – e, por fim, mostre qual marca deixará neste mundo. Investigação iluminada - Mordimer tem habilidades e talentos únicos que o permitem desvendar crimes e mistérios de Koenigstein. Encontre e interrogue suspeitos. Descubra verdades ocultas da cidade e de seus habitantes. Junte as provas e faça seu julgamento final. Mergulhe no Intramundo - Sem que aqueles ao seu redor saibam, Mordimer é capaz de entrar no misterioso Intramundo. Lá, ele é capaz de descobrir segredos profundos que os suspeitos tentam ocultar em suas almas. Mas há um grande risco ao se aventurar neste mundo e a força sombria que nele reina fará de tudo para destruir os invasores. Interrogatórios persuasivos - O século de 1.500 é uma era de justiça cruel. Como inquisidor, você é livre para usar quaisquer métodos e ferramentas que julgar necessários para persuadir seus suspeitos a revelarem a “verdade”. Esses interrogatórios opcionais datam dos tempos da verdadeira Inquisição e cabe a você decidir se e como vai aplicá-los em sua investigação. O diálogo da espada - Às vezes, só é preciso cortar uma língua no lugar certo para ela se soltar. Um sistema de combate com espada significa que diversos casos vão permitir ou exigirem o uso da força bruta. Domine sua espada, encontre brechas e use as fraquezas de seus inimigos contra eles.",
+            "features": [
+                "O jogo possúi conquistas."
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "Versão do SO", "value": "Windows 10 (64 Bit)"},
+                    {"name": "Processador", "value": "Intel Core i5-8400 / Ryzen 5 2600"},
+                    {"name": "Memória", "value": "16 GB"},
+                    {"name": "Placa de vídeo", "value": "GeForce GTX 1060 6GB / AMD RX 590"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Armazenamento", "value": "23 GB"},
+                    {"name": "Placa de som", "value": "Integrated or dedicated compatible soundcard"},
+                    {"name": "Observações adicionais", "value": "Minimum: Low settings | Full-HD | Average performance | SSD recommended / Upscaling via FSR recommended || Recommended: Medium settings | Full-HD | Average performance | SSD recommended / Upscaling via DLSS or FSR recommended"}
+                ],
+                "recommended": [
+                    {"name": "Versão do SO", "value": "Windows 10 (64 Bit)"},
+                    {"name": "Processador", "value": "Intel Core i7-7700K / Ryzen 7 2700"},
+                    {"name": "Memória", "value": "16 GB"},
+                    {"name": "Placa de vídeo", "value": "GeForce RTX 2070 / AMD RX 5700"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Armazenamento", "value": "23 GB"},
+                    {"name": "Placa de som", "value": "Integrated or dedicated compatible soundcard"}
+                ]
+            },
+            "developer": "The Dust S.A.",
+            "publisher": "Kalypso Media",
+            "age": {
+                "target": 18,
+                "content": ["Conteúdo sexual", "Drogas", "Drogas Lícitas", "Violência Extrema"]
+            },
+            "launch-date": "08/02/2024",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["Polonês", "Alemão", "Inglês"]},
+                {"text": [
+                    "Russo", 
+                    "Polonês", 
+                    "Chinês (simplificado)", 
+                    "Português (Brasil)", 
+                    "Inglês", 
+                    "Alemão", 
+                    "Francês", 
+                    "Japonês", 
+                    "Espanhol (Espanha)"
+                ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_9.png", "id": 8},
+                {"image": "http://localhost:3000/game-images/The Inquisitor/Screenshot_10.png", "id": 9}
+            ]
+        }
+    },
+    {
+        "name": "Contraption Maker",
+        "infos": {
+            "basic": "Contraption Maker is an open-ended sandbox puzzle game from the designer/programmer of The Incredible Machine. Play or build elaborate contraptions with hamster motors, trampolines, alligators, wrecking balls, zombies, gears, lasers, ghosts, and over 100 more crazy parts",
+            "genres": [
+                "Casual",
+                "Quebra-Cabeça"
+            ],
+            "resources": [
+                "Jogos para Um Jogador",
+                "Online Multiplayer"
+            ],
+            "description": "",
+            "features": [
+                "Play over 200 official puzzles and over 1,000 user created puzzles in the Workshop.",
+                "A cat, dog, mouse, bear, alligator, and more characters. Watch out for the Ghost!",
+                "Comes the the Wonderstructs Parts and Puzzles pack.",
+                "Comes with a in-game Javascript editor so you can create your own games using the Contraption Maker parts.",
+                "Create your own Cheese Factory or anything else that you can imagine.",
+                "O jogo possúi conquistas."
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows Vista"},
+                    {"name": "CPU", "value": "1.7Ghz"},
+                    {"name": "Memory", "value": "2GB RAM"},
+                    {"name": "GPU", "value": "512MB VRAM"},
+                    {"name": "Storage", "value": "300 MB available space"},
+                    {"name": "login", "value": "Epic ID"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 7 or newer"},
+                    {"name": "CPU", "value": "1.7Ghz or higher"},
+                    {"name": "Memory", "value": "2 GB RAM or higher"},
+                    {"name": "GPU", "value": "512MB VRAM or higher"}
+                ]
+            },
+            "developer": "Kevin Ryan",
+            "publisher": "Top Meadow Inc",
+            "age": {
+                "target": "free",
+                "content": []
+            },
+            "launch-date": "22/01/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": []},
+                {"text": [ "Inglês" ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_9.png", "id": 8},
+                {"image": "http://localhost:3000/game-images/Contraption Maker/Screenshot_10.png", "id": 9}
+            ]
+        }
+    },
+    {
+        "name": "Lilaina: Space Bounty Hunter",
+        "infos": {
+            "basic": "Single player action third-person shooter game set in a sci-fi world",
+            "genres": [
+                "Ação e Aventura",
+                "Quebra-Cabeça",
+                "Tiro"
+            ],
+            "resources": [
+                "Jogos para Um Jogador"
+            ],
+            "description": "Story - Lilaina is a bounty hunter who lives in the northern part of the Milky Way galaxy. She receives mission requests to eliminate invading alien spaceships and gets rewarded with money for doing the job. Lilaina wears skimpy outfits during her missions because aliens can easily detect fabric and clothes, but it is hard for aliens to detect the human skin unless the human gets very close to them! Gameplay - A single player action third-person shooter game with some puzzles and platforming.",
+            "features": [],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows 7×64"},
+                    {"name": "CPU", "value": "Intel Core i5-4460 (3.40 GHz) or better; Quad-core or bette"},
+                    {"name": "Memory", "value": "4 GB RAM"},
+                    {"name": "GPU", "value": "NVIDIA GeForce GTX 650 Ti or better"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Storage", "value": "5 GB aviable space"},
+                    {"name": "SoundCard", "value": "DirectX 9.0c compatible sound card"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 10×64"},
+                    {"name": "CPU", "value": "Intel Core i7-7700 (3.60 GHz)"},
+                    {"name": "Memory", "value": "16GB RAM"},
+                    {"name": "GPU", "value": "NVIDIA GeForce GTX 1070"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Storage", "value": "6 GB aviable space"},
+                    {"name": "SoundCard", "value": "DirectX 9.0c compatible sound card"}
+                ]
+            },
+            "developer": "DarkSexualArtz",
+            "publisher": "FantaziaMania",
+            "age": {
+                "target": 16,
+                "content": ["Conteúdo sexual", "Linguagem Imprópria", "Violência"]
+            },
+            "launch-date": "07/02/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": []},
+                {"text": [ "Inglês" ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Lilaina Space Bounty Hunter/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Lilaina Space Bounty Hunter/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Lilaina Space Bounty Hunter/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Lilaina Space Bounty Hunter/Screenshot_4.png", "id": 3}
+            ]
+        }
+    },
+    {
+        "name": "Last Remains",
+        "infos": {
+            "basic": "Last Remains is a 30+ player zombie battle royale game where survivors compete in a PvPvE world, scavenging for food, water, and digital collectible skins, including equipment and weapons. Available for 24 hours every two weeks, the next will be Feb 3 at 10 AM UTC.",
+            "genres": [
+                "Ação",
+                "Furtivos",  
+                "Sobrevivência"
+            ],
+            "resources": [
+                "Competitivo",
+                "Cooperativo",
+                "Online Multiplayer"
+            ],
+            "description": "Last Remains is a stealth zombie battle royale. Let's break that down: The Battle Royale genre was founded by the Player Unknowns Battle Grounds MOD and popularized beyond the masses by Fortnite. In the game, you drop into a map with 100 other players and a powerful electrical sphere randomly shrinks in size every few minutes, eventually forcing all players to meet on the map for the final showdown. Players start with nothing but can take risks by entering buildings during their journey in search for gear; risks being, someone might be in that house ready to wak yo face off. These games are heavily built around shooting. Zombie games have been popular since gaming existed. Resident Evil is one of the first to get a movie adaptation for it. This is then followed by Dead Space and many others. Stealth games force players to use the environment to get around obstacles versus running out in the open shooting people or using highly tuned reactive skills to outplay your opponent. Most popular ones are Tom Clancy’s Splinter Cell, Assassin’s Creed (also was made into a movie) and the gorgeous Last Of Us. Combining the above, what do you get? Well, let’s just say, you’d prefer to throw an alarm clock to distract some zombies than go out on a shooting spree attracting a horde to your death. Combining with web3 gaming elements, players will compete in a PvE world (with a heavy focus on the environment) taking risks to find mintable NFTs while being one of 3 survivors who are picked up by the rescue helicopter.In Last Remains, you wake up to a radio message telling you the first hint of where the rescue helicopter will arrive within 30-40 minutes. For security purposes, the rescue team tips the player more direct information about where the helicopter will land. To win the game, you need to be one of 3 survivors to get to the helicopter first. As the player works towards the rescue point, they will have the choice to take risks by going into different buildings in search of water, food, equipment, weapons, and skins. Skins mintable cosmetic NFTs with a paired in-game bonus and disadvantage which can be strategically equipped. There may be other drops that can be taken out of the game and introduced in the future.",
+            "features": [],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows 10"},
+                    {"name": "CPU", "value": "Quad-core Intel or AMD, 2.5 GHz or faster"},
+                    {"name": "Memory", "value": "6 GB DDR3 Memory"},
+                    {"name": "GPU", "value": "GTX 1070 or higher"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Storage", "value": "40 GB SSD"},
+                    {"name": "login", "value": "Epic ID"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision .789 or higher."},
+                    {"name": "CPU", "value": "6-core 8th generation CPU"},
+                    {"name": "Memory", "value": "8 GB DDR4 Memory or higher"},
+                    {"name": "GPU", "value": "Nvidia RTX 2070 or higher"},
+                    {"name": "DirectX", "value": "DirectX 12"},
+                    {"name": "Storage", "value": "40 GB SSD M.2 Drives"}
+                ]
+            },
+            "developer": "Earn Alliance",
+            "publisher": "Earn Alliance",
+            "age": {
+                "target": 12,
+                "content": ["Medo", "Violência", "Interação de Usuários", "Compras On-line (Inclui itens aletórios)"]
+            },
+            "launch-date": "20/01/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": [ "English" ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/Last Remains/Screenshot_9.png", "id": 8}
+            ]
+        }
+    },
+    {
+        "name": "Airship: kingdoms Adrift",
+        "infos": {
+            "basic": "Customize & manage your fleet of airships, plan trade routes, establish industries, explore the skies of Europa during turmoil & national conflicts. Airship: Kingdoms Adrift is strategy-simulation game with rich lore and captivating story to explore, as well as PVP patches.",
+            "genres": [
+                "Ação",
+                "Indie",
+                "Simulação"
+            ],
+            "resources": [
+                "Competitivo",
+                "Jogos para Um Jogador",
+                "Online Multiplayer"
+            ],
+            "description": "Airship: Kingdoms Adrift is an airship trading and combat simulator, set in the wake of a Great Sky War that ripped through the steampunk world of Spheara. An uneasy cease-fire holds between the Aecerlian Kingdom, the New Viridian Republic, and the Teutonic Confederation. As they lick their wounds, their suddenly jobless soldiers and skyfarers look for new opportunities among the desolation. Enter the Suthseg Archipelago. A far-flung frontier ruled by an aging king, it was spared from devastation of war and is a land full of riches and opportunity. It is here that fortunes will be made, loyalties tested, and skyfaring captains will get the rare chance to carve out a future of their own. You are one of these captains, commissioned to establish a trading company in the Archipelago, and soon pulled into a game of grand politics… and grave danger. Explore and Battle Adversaries - Suthseg is a vast archipelago with over 70 known settlements and untold riches awaiting intrepid explorers. Pilot your airship across the expanse, seeking out new partners to trade with, resources to exploit, and hostile vessels to send plummeting to the ground below. Select from more than 30 distinct types of airships, each customizable with scores of weapons, armor types, special equipment, and more. Will your airship be a lumbering ironclad bristling with weapons? Or a nimble monitor that could punch out an opponent well above her weight class. Then take your personal ship and tackle more than 500 handcrafted encounters with dastardly pirates, competing merchants, local militias, and skyfaring manowars of the great powers. Land of Riches and Opportunity - Seek out merchants and deal in over 300 different trade goods, from essential supplies to cutting edge airship weapons. Buy low, sell high, and amass profits to make even the richest merchants green with envy! Industry and armaments are the backbone of the economy. Establish mines, lumberyards, foundries, and pour these resources into your own factories, to fund and maintain the greatest skyfaring fleet in the archipelago. Devise one of a kind strategies! Will you be the bane of pirates, seizing their ill-gotten gains? A titan of industry, carefully carving out an industrial empire? Or a heroic trader, charting trade routes where nobody would dare? The Great Game - What starts as a straightforward commission will soon draw you into the world of treachery and grand politics, as dozens of rival factions clash over the fate of the Kingdom! Navigate across the treacherous currents of modern politics and the dramatic changes wrought by the ceasefire that finished the Great Sky War. Most importantly, take control and change the course of history. Who will be your foe? Who will ultimately prevail in the skies of the Suthseg Archipelago? The Battle Continues Online! - Play online in 1vs1 or up to 3vs3 multiplayer PvP mode. Hop into your favorite gunboat and set up a match with your friends, or join our community and field your best Battle Cruiser in epic battles. Set a budget limit and challenge your shipbuilding skill, put it to the test against online competitors. Select from various map sizes and layouts which impose different design challenges to your ship and even more!",
+            "features": [
+                "Experience a story of politics and intrigue, as Suthseg becomes the flashpoint for another Sky War.",
+                "Customize, upgrade, and pilot 25 various airships, from graceful sailing vessels to ironclad dreadnoughts.",
+                "Assemble a crew of officers among 25 distinct personalities, each with their own abilities and personal stories to tell.",
+                "Explore and trade across a vast archipelago with 70 locations and over 300 types of trade goods.",
+                "Set up camps, mines, and factories, to create a mighty industrial empire producing goods and equipment and dominate the economy.",
+                "Become the greatest of the skyfaring captains, controlling an entire fleet of airships and deciding the fate of the Kingdom."
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows 7 SP1+"},
+                    {"name": "CPU", "value": "SSE2 instruction set support."},
+                    {"name": "Memory", "value": "6 GB"},
+                    {"name": "GPU", "value": "Graphics card with DX10 (shader model 4.0) capabilities."},
+                    {"name": "DirectX", "value": "DirectX 10"},
+                    {"name": "Storage", "value": "5 GB"},
+                    {"name": "Additional Notes", "value": "Does not support ultra-wide screen resolution"}                
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 10"},
+                    {"name": "CPU", "value": "Intel i5 4690 @ 3.5GHz or AMD FX-8150 @ 3.6 GHz"},
+                    {"name": "Memory", "value": "8 GB"},
+                    {"name": "GPU", "value": "Nvidia GeForce GTX 770 or AMD Radeon R9 380x"},
+                    {"name": "DirectX", "value": "DirectX 10"},
+                    {"name": "Storage", "value": "5 GB"}
+                ]
+            },
+            "developer": "Revolution Industry Co.",
+            "publisher": "Freedom Games",
+            "age": {
+                "target": "free",
+                "content": []
+            },
+            "launch-date": "19/01/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": [ "English" ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_6.png", "id": 5},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_7.png", "id": 6},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_8.png", "id": 7},
+                {"image": "http://localhost:3000/game-images/Airship kingdoms Adrift/Screenshot_9.png", "id": 8}
+            ]
+        }
+    },
+    {
+        "name": "Geometric Sniper",
+        "infos": {
+            "basic": "Katy, a French sniper, needs to protect her magnificent city! A 2D sniper game like you've never seen! In this second game of the “Geometric Sniper” series the missions are increasingly challenging, you won't have second chances. Accuracy is everything!",
+            "genres": [
+                "Casual",
+                "Furtivos",
+                "Tiro"
+            ],
+            "resources": [
+                "Jogos para Um Jogador"
+            ],
+            "description": "In Geometric Sniper - Blood in Paris you will have everything you loved in the first game (Geometric Sniper) and many other new features Katy, a French sniper, needs to protect her magnificent city and prevent innocent lives from being lost. With increasingly challenging missions, you won't get a second chance. Accuracy is everything! As a Sniper you will have to pay attention to the details and look for the right moment for the shot. Your targets know they are wanted and will try to hide in a variety of ways. Have patience to take a clear shot memorizing the information for each mission.With live maps designed exclusively for this fantastic game, locate explosives and their targets in a crowd, buildings and other situations. This is a 2D sniper game like you've never seen!",
+            "features": [
+                "Help Andrew fulfill his missions to protect the people of this magnificent city! In 10 missions, one more challenging than the previous one, every detail counts: from carefully observing the mission information to finding the perfect shot opportunity.",
+                "In this mode you will test your skills. After the end of the adventure mode, it will be enabled and you will have to complete the 10 adventure missions without the help of zoom and precision. With this mode a new ranking is also enabled. How fast and accurate can you be with these limitations? Who will remain at the top of the Sniper Elite?",
+                "This game mode is released after completing the 6th mission, in it you can have fun with new challenges and get money to pay damages to the family of the civilian that you have mistakenly killed during the missions in modes (Adventure and Elite), by doing this the negative score will be removed and added to the scoreboard.",
+                "This game mode will require all your skill to stay at the top of the leaderboard! Find randomly generated targets on the map while shooting look for you. The further you go, the more challenging the game will be! If you fail the mission and your points will be saved on the scoreboard and you will have to start your journey to beat your score or that of another player.",
+                "Sharpen your precision even more! Have fun in this game mode where you will have 10 missions to find various objects scattered in the scenarios and hit them before time runs out. How fast and accurate are you able to shoot?",
+                "After the end of the adventure, you will also unlock the 'replay', where you can play the missions again seeking to reach the top of the ranking with the perfect shot."
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Microsoft® Windows® 10"},
+                    {"name": "CPU", "value": "Intel Core i5 - 64 bits Processor"},
+                    {"name": "Memory", "value": "8GB"},
+                    {"name": "GPU", "value": "Geforce GTX 1650 4GB"},
+                    {"name": "DirectX", "value": "DirectX 11"},
+                    {"name": "Storage", "value": "2GB"},
+                    {"name": "Additional Notes", "value": "Requires a 64-bit processor and OS."},
+                    {"name": "login", "value": "Epic ID"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Microsoft® Windows® 11"},
+                    {"name": "CPU", "value": "Intel Core i7 - 64 bits Processor"},
+                    {"name": "Memory", "value": "Above 8GB"},
+                    {"name": "GPU", "value": "Above - Geforce GTX 1650 4GB"}
+                ]
+            },
+            "developer": "YAW Studios",
+            "publisher": "YAW Studios",
+            "age": {
+                "target": 14,
+                "content": ["Violência"]
+            },
+            "launch-date": "mar. de 2024",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": ["English"]},
+                {"text": [ 
+                    "English",
+                    "Portuguese (Brazil)" 
+                    ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/Geometric Sniper/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/Geometric Sniper/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/Geometric Sniper/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/Geometric Sniper/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/Geometric Sniper/Screenshot_5.png", "id": 4},
+                {"image": "http://localhost:3000/game-images/Geometric Sniper/Screenshot_6.png", "id": 5}
+            ]
+        }
+    },
+    {
+        "name": "The Death Into Trouble",
+        "infos": {
+            "basic": "Help The Death to undo his mess, collect souls between heaven, purgatory and hell. Run, Jump, Hide and Explore, in this hide-and-seek from beyond!",
+            "genres": [
+                "Exploração",
+                "Plataforma",
+                "Retro"
+            ],
+            "resources": [
+                "Compatíveis com Controle",
+                "Jogos para Um Jogador"
+            ],
+            "description": "THE DEATH HAD A BAD DAY AT WORK - The Devil changed the destinations of Samael`s clients. Whoever should go to heaven went to hell or purgatory and the other way around. Now he will go after each one to undo the mess before the boss notices. - NON-LINEAR EXPLORATION - Search for and recover souls in each world, while avoiding enemies and overcoming obstacles. If a soul's destiny is hell, it will try to escape when it notices your presence, to avoid this, hide, walk slowly and catch it off guard.",
+            "features": [
+                "Non-linear exploration in a 2D world;",
+                "3 unique worlds with secrets, enemies and souls to collect;",
+                "Heavily focused on exploring;",
+                "'Stealth elements;'",
+                "Original retro wave soundtrack based on requiem pieces;"
+            ],
+            "requirements": {
+                "minimun": [
+                    {"name": "OS version", "value": "Windows 10"},
+                    {"name": "CPU", "value": "Intel Core 2 Quad Q9550 | AMD"},
+                    {"name": "Memory", "value": "2GB RAM"},
+                    {"name": "GPU", "value": "Intel HD 4000"},
+                    {"name": "DirectX", "value": "DirectX 10"},
+                    {"name": "Storage", "value": "400 MB available space"},
+                    {"name": "Additional Notes", "value": "Requires a 64-bit processor and operating system"},
+                    {"name": "login", "value": "Epic ID"}
+                ],
+                "recommended": [
+                    {"name": "OS version", "value": "Windows 11"},
+                    {"name": "CPU", "value": "Intel Core i3 M380"},
+                    {"name": "Memory", "value": "2GB RAM"},
+                    {"name": "GPU", "value": "NVIDIA GTX 560TI or AMD 5870"}
+                ]
+            },
+            "developer": "8 Million Bit",
+            "publisher": "Hanoi Studios",
+            "age": {
+                "target": "free",
+                "content": ["Violência Fantasiosa"]
+            },
+            "launch-date": "19/01/24",
+            "plataform": [
+                "Windows"
+            ],
+            "languages": [
+                {"audio": []},
+                {"text": [ 
+                    "English",
+                    "Portuguese (Brazil)" 
+                ]}
+            ],
+            "images": [
+                {"image": "http://localhost:3000/game-images/The Death Into Trouble/Screenshot_1.png", "id": 0},
+                {"image": "http://localhost:3000/game-images/The Death Into Trouble/Screenshot_2.png", "id": 1},
+                {"image": "http://localhost:3000/game-images/The Death Into Trouble/Screenshot_3.png", "id": 2},
+                {"image": "http://localhost:3000/game-images/The Death Into Trouble/Screenshot_4.png", "id": 3},
+                {"image": "http://localhost:3000/game-images/The Death Into Trouble/Screenshot_5.png", "id": 4}
+            ]
+        }
+    }
+    ]
+
+}
