@@ -1,10 +1,11 @@
 import { StyledButton } from "../../styled-components/button";
 import { StyledAddWallet, StyledValueOptions } from "../../styled-components/add-wallet";
 import { useDispatch, useSelector } from "react-redux";
-import { increaseWalletValue } from "../../store/actions/wallet";
 import { toCurrency } from "../../js/variables";
-import { walletAdded } from "../../store/actions/notification"; 
 import { useEffect, useState } from "react"; 
+import { PaymentConfirmBox } from "../payment-confirm"; 
+import { handleAddWalletConfirm } from "../../js/handle"; 
+import { toggleMobileMenu } from "../../store/actions/mobile-menu";
 
 const paymentValues = [
     {value: 10},
@@ -18,24 +19,23 @@ const paymentValues = [
 
 const AddWallet = () => {
 
-    const [ walletAddedValue, setValue ] = useState(0)
-
     const dispatch = useDispatch()
-    const walletValue = useSelector(state => state.walletValue)
 
-    const handle = (value) => {
-        dispatch(increaseWalletValue(value))
-        setValue(value)
-    }
+    const [ selectedValue, setValue ] = useState(0)
+    const [ showConfirmationBox, setConfirmationBox ] = useState(Boolean)
+
+    const walletValue = useSelector(state => state.walletValue)
+    const paymentConfirm = useSelector(state => state.paymentConfirm)
 
     useEffect( () => {
-        if(walletAddedValue > 0){
-            dispatch(walletAdded("added", walletAddedValue))
-            setTimeout(() => {
-                dispatch(walletAdded("finish"))
-            }, "2000")
+        if(paymentConfirm.confirm === true){
+            handleAddWalletConfirm(selectedValue, dispatch)
+            setConfirmationBox(false)     
+        }else{
+            setConfirmationBox(false)
         }
-    }, [walletValue] )
+        dispatch(toggleMobileMenu(true))
+    }, [ walletValue, paymentConfirm ])
 
     return(
         <StyledAddWallet>
@@ -45,9 +45,12 @@ const AddWallet = () => {
                     paymentValues.map((payment, index) => {
                         return (
                             <li key={index}>
-                                <StyledButton value={payment.value} onClick={() => handle(payment.value)}>
+                                <StyledButton value={payment.value} onClick={() => {
+                                        setConfirmationBox(true)
+                                        setValue(payment.value)
+                                    }}>
                                     {
-                                    toCurrency(payment.value)
+                                        toCurrency(payment.value)
                                     }
                                 </StyledButton>
                             </li>
@@ -55,6 +58,9 @@ const AddWallet = () => {
                     })
                 }
             </StyledValueOptions>
+            {
+                showConfirmationBox && <PaymentConfirmBox walletPage={true} selectedWalletValue={selectedValue}/>
+            }
         </StyledAddWallet>
     )
 }

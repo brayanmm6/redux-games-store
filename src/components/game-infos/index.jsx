@@ -1,12 +1,14 @@
-import { StyledGameContainer, StyledImages, StyledUl,  StyledInfos, StyledMainImage, StyledRequirements, StyledFeatures, StyledMainContainer,  StyledPayArea } from "../../styled-components/game-infos"; 
+import { StyledGameContainer, StyledImages, StyledUl,  StyledInfos, StyledMainImage, StyledRequirements, StyledFeatures, StyledMainContainer, AsideArea, StyledLanguages } from "../../styled-components/game-infos"; 
 import { useState, useEffect } from "react"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons"; 
+import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons"; 
 import { GameAge } from "../game-age";
 import { StyledButton } from "../../styled-components/button"; 
 import games from "../../json/items.json"
 import { GameToPay } from "../game-pay"; 
 import { Loading } from "../../styled-components/loading"; 
+import { useDispatch } from "react-redux";
+import { toggleMobileMenu } from "../../store/actions/mobile-menu";
 
 const GameInfosRender = ({game}) => {
     const [ value, setValue ] = useState(0)
@@ -17,9 +19,12 @@ const GameInfosRender = ({game}) => {
         url: game.infos.images[value].image
     })
 
+    const dispatch = useDispatch()
+
     useEffect(() => {
         setCurrentImage({url: game.infos.images[value].image})
         currentImage.url && setLoading(false)
+        dispatch(toggleMobileMenu(true))
     }, [value])
 
     const handleArrowButton = (operation) => {
@@ -51,9 +56,9 @@ const GameInfosRender = ({game}) => {
                     {
                         currentImage.url ?
                         <>
-                            {game.infos.images.length > 1 && <StyledButton className="icon left"  onClick={() => handleArrowButton("decrease")}><FontAwesomeIcon icon={faArrowLeft} /></StyledButton>}
+                            {game.infos.images.length > 1 && <StyledButton className="icon left"  onClick={() => handleArrowButton("decrease")}><FontAwesomeIcon icon={faAngleLeft} /></StyledButton>}
                                 <img src={currentImage.url} alt={game.name} />
-                            {game.infos.images.length > 1 && <StyledButton className="icon right" onClick={() => handleArrowButton("increase")}><FontAwesomeIcon icon={faArrowRight} /></StyledButton>}
+                            {game.infos.images.length > 1 && <StyledButton className="icon right" onClick={() => handleArrowButton("increase")}><FontAwesomeIcon icon={faAngleRight} /></StyledButton>}
                         </>
                         :
                         <h1>Não foi possível carregar as Imagens do Game :(</h1>
@@ -188,15 +193,55 @@ const GameInfosRender = ({game}) => {
                     }
                 </StyledInfos>
             </StyledGameContainer>
-            {
-                games.data.map((item, index) => {
-                    if(item.name === game.name){
-                        return(
-                            <GameToPay key={index} name={item.name} price={item.price} logo={item.logo} image={item.img} isFree={item.isFree} age={game.infos.age.target} onSale={item.onSale} salePrice={item.salePrice} game={game} languages={game.infos.languages} content={game.infos.age.content}/>
-                        )
-                    }
-                })
-            }
+            <AsideArea>
+                {
+                    games.data.map((item, index) => {
+                        if(item.name === game.name){
+                            return(
+                                <GameToPay key={index} name={item.name} price={item.price} logo={item.logo} image={item.img} isFree={item.isFree} age={game.infos.age.target} onSale={item.onSale} salePrice={item.salePrice} game={game} languages={game.infos.languages} content={game.infos.age.content}/>
+                            )
+                        }
+                    })
+                }
+                <StyledLanguages>
+                    <h2>Idiomas suportados:</h2>
+                    <div className="languages">
+                        <h3>Texto: </h3>
+                        <ul className="languages-list">
+                            {
+                                game.infos.languages.text.length ?
+                                game.infos.languages.text.map((textLang, index) => {
+                                    return(
+                                        <li key={index}>
+                                            <p>{textLang}</p>
+                                        </li>
+                                    )
+                                })
+                                :
+                                <li><p>N/A</p></li>
+                            }
+                        </ul>
+                    </div>
+                    <div className="languages">
+                        <h3>Audio: </h3>
+                        <ul className="languages-list">
+                            {
+                                game.infos.languages.audio.length ?
+                                game.infos.languages.audio.map((audioLang, index) => {
+                                    return(
+                                        <li key={index}>
+                                            <p>{audioLang}</p>
+                                        </li>
+                                    )
+                                })
+                                :
+                                <li><p>N/A</p></li>
+                            }
+                        </ul>
+                    </div>
+                </StyledLanguages>
+            </AsideArea>
+            
         </StyledMainContainer>
     )
 }

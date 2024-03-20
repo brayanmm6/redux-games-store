@@ -12,8 +12,7 @@ const StyledShoppingCart = styled.main`
     border-radius: 10px;
     margin: 10px auto;
     gap: 15px; 
-    color: #fff;
-    
+    color: #fff; 
 `
 
 const CartItemsContainer = styled.ul`

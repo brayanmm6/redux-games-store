@@ -3,7 +3,7 @@ import { useState } from "react"
 import { GameInfosRender } from "../components/game-infos" 
 import { useParams } from "react-router-dom" 
 import { Navbar } from "../components/navbar" 
-import { CartNotification } from "../components/notifications/cart" 
+import { CartNotification } from "../components/notifications/cart"  
 
 const GameInfos = () => {
 
@@ -15,10 +15,7 @@ const GameInfos = () => {
             <Navbar />
             <CartNotification />
             {
-                infos.games.map((info, index) => info.name === game && 
-                    <>
-                        <GameInfosRender key={index} game={info}/>
-                    </>
+                infos.games.map((info, index) => info.name === game && <GameInfosRender key={index} game={info}/>
                 )
             }
         </>

@@ -1,8 +1,18 @@
 import { StyledItems, Itemscontainer, MainContainer } from "../../styled-components/shop-items";
 import { Item } from "../item";
 import { CartPreview } from "../cart-preview";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { toggleMobileMenu } from "../../store/actions/mobile-menu";
 
 const ShopItems = ({items}) => {
+
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(toggleMobileMenu(true))
+    }, [])
+
     return(
         <MainContainer>
             <Itemscontainer>

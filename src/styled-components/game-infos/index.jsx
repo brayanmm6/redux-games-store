@@ -7,7 +7,7 @@ const StyledMainContainer = styled.main`
     max-width: 1700px;
     margin: 30px auto;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 40px;
     border-radius: 10px;
     border: solid 3px #fff;
@@ -16,6 +16,7 @@ const StyledMainContainer = styled.main`
 
 const StyledGameContainer = styled.div`
     max-width: 1300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,14 +123,15 @@ const StyledMainImage = styled.div`
 
     .icon{
         font-size: 50px;
-        background-color: rgba(255, 255, 255, 0.3);
-        padding: 10px 15px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 7px 16px;
+        backdrop-filter: blur(2px);
         border-radius: 50%;
         cursor: pointer;
         transition: 0.3s ease-in-out;
         margin: 10px;
         position: absolute;
-        color: rgba(170, 54, 200, 0.6);
+        color: #fff;
         border: solid 1px;
     }
 
@@ -199,4 +201,33 @@ const StyledFeatures = styled.ul`
     }
 `
 
-export { StyledGameContainer, StyledImages, StyledUl, StyledInfos, StyledMainImage, StyledRequirements, StyledFeatures, StyledMainContainer }
+const AsideArea = styled.aside`
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: auto;
+    height: auto;
+`
+
+const StyledLanguages = styled.aside`
+    padding: 20px;
+    background-color: rgba(250, 250, 250, 0.1);
+    border-radius: 10px;
+    
+    .languages{
+        display: flex;
+        gap: 7px;
+        padding: 10px;
+        border-bottom: solid 1px #fff;
+    }
+
+    .languages-list{
+        width: 100%;
+        text-align: center;
+        border: solid 1px #fff;
+        border-radius: 10px;
+        padding: 5px;
+    }
+`
+
+export { StyledGameContainer, StyledImages, StyledUl, StyledInfos, StyledMainImage, StyledRequirements, StyledFeatures, StyledMainContainer, AsideArea, StyledLanguages }

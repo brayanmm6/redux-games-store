@@ -22,7 +22,14 @@ const CartPreview = () => {
                             <li key={index}>
                                 <img src={item.image} alt="" />
                                 <h3>{item.name}</h3>
-                                <p>{toCurrency(item.price)}</p>
+                                <p>
+                                    {
+                                        item.onSale ?
+                                        toCurrency(item.salePrice)
+                                        :
+                                        toCurrency(item.price)
+                                    }                                
+                                </p>
                                 <RemoveItemCart item={item}/>
                             </li>
                         )

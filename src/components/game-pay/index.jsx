@@ -7,11 +7,11 @@ import { useSelector } from "react-redux";
 import { ToCartButton } from "../button/to-cart"; 
 import { RemoveItemCart } from "../button/remove-item-cart"; 
 
-const GameToPay = ({game, name, logo, price, isFree, onSale, salePrice, image, age, languages, content}) => {
+const GameToPay = ({game, name, logo, price, isFree, onSale, salePrice, image, age, content}) => {
 
     const cartItems = useSelector(state => state.cartItems)
     const alreadyInCart = cartItems.find(item => item.name === name)
-
+   
     return(
         <StyledPayArea>
             <img className="logo" src={logo ?? image} alt={name}/>
@@ -35,7 +35,7 @@ const GameToPay = ({game, name, logo, price, isFree, onSale, salePrice, image, a
                         </>
                     : <AddButton name={name} price={price} isFree={isFree} onSale={onSale} salePrice={salePrice} image={image} />
                 }
-                <PayButton gamePrice={onSale ? salePrice : isFree ? 0 : price} game={game}/>
+                <PayButton gamePrice={onSale ? salePrice : price } game={game}/>
             </footer>
         </StyledPayArea>
     )

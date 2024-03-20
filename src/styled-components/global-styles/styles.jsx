@@ -6,6 +6,8 @@ const GlobalStyles = createGlobalStyle`
         height: 100%;
         background-color: #121212; 
         overflow: hidden visible;
+        position: relative;
+        padding: 10px;
     }
 
     ::-webkit-scrollbar{

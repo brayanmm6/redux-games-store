@@ -16,7 +16,7 @@ export default function reducer (state = [ saveWallet ?? 0 ], action) {
             }else{
                 const result = toNumber - action.payload
                 return result
-            }  
+            }
         }
     }
     return state

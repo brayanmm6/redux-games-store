@@ -11,6 +11,7 @@ const CartPreviewContainer = styled.aside`
     flex-direction: column;
     justify-content: space-between;
     margin: 10px auto;
+    animation: 0.3s linear 0s 1 appear;
 
     h2{
         width: 100%;

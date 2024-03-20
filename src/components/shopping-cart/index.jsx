@@ -7,8 +7,10 @@ import { setTotalValue } from "../../store/actions/total";
 import { useEffect } from "react";
 import { Link } from "react-router-dom"; 
 import { MainContainer } from "../../styled-components/shop-items"; 
+import { toggleMobileMenu } from "../../store/actions/mobile-menu";
 
 const ShoppingCart = () => {
+    
     const dispatch = useDispatch()
     const cartItems = useSelector(state => state.cartItems)
     const walletValue = useSelector(state => state.walletValue)
@@ -18,6 +20,7 @@ const ShoppingCart = () => {
 
     useEffect(() => {
         dispatch(setTotalValue(total))
+        dispatch(toggleMobileMenu(true))
     }, [total, walletValue, cartItems])
 
     return (

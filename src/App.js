@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 import { WalletPage } from './pages/wallet';
 import { GameInfos } from './pages/game-infos';
+import { Responsive } from './styled-components/global-styles/responsive';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Provider store={store}>
         <GlobalStyles />
         <GlobalReset />
+        <Responsive />
         <BrowserRouter>
               <Routes>
                   <Route exact path="/" Component={Home}/>

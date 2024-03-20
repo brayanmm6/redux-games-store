@@ -1,5 +1,4 @@
-import styled from "styled-components";
-
+import styled from "styled-components"
 
 const StyledAddWallet = styled.main`
     width: 100%;
@@ -9,7 +8,7 @@ const StyledAddWallet = styled.main`
     background: rgba(0, 0, 0, 0.5); 
     border: solid 3px #fff;
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 30px auto;
     color: #fff;
 `
 

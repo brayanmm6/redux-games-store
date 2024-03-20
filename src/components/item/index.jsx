@@ -14,7 +14,6 @@ const Item = ({item, name, price, image, onSale, salePrice, isFree, disableBtn})
 
     const cartItems = useSelector(state => state.cartItems)
     const alreadyInCart = cartItems.find(item => item.name === name )
-
     const [ loading, setLoading ] = useState(true)
     useEffect(() => {
         image ? setLoading(false) : setLoading(true)
@@ -27,7 +26,7 @@ const Item = ({item, name, price, image, onSale, salePrice, isFree, disableBtn})
                     loading ?
                         <Loading />
                     :
-                        <Link to={`/${name}/game-infos`}>
+                        <Link to={`/${name}/game-infos`} >
                             <div>
                                 <img src={image} alt={name} />
                                 <h1>{name}</h1>
